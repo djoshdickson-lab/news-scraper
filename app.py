@@ -5,9 +5,12 @@ app = Flask(__name__)
 
 # Add your favorite RSS feeds here
 FEEDS = {
-    "BBC News": "http://feeds.bbci.co.uk/news/rss.xml",
-    "TechCrunch": "https://techcrunch.com/feed/",
+    "BBC News": "https://feeds.bbci.co.uk/news/uk/rss.xml",
+    "The Guardian": "https://www.theguardian.com/uk-news/rss",
+    "Sky News": "https://news.sky.com/info/rss",
+    "Gov UK": "https://www.govwire.co.uk/rss"
 }
+
 
 HTML_TEMPLATE = """
 <!DOCTYPE html>
