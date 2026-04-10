@@ -8,8 +8,8 @@ app = Flask(__name__)
 FEEDS = {
     "BBC News": "https://feeds.bbci.co.uk/news/uk/rss.xml",
     "The Guardian": "https://www.theguardian.com/uk-news/rss",
-    "Sky News": "https://news.sky.com/feeds/rss/home.xml",
-    "Gov UK": "https://www.gov.uk/government/announcements.atom"
+    "Sky News": "https://feeds.skynews.com/feeds/rss/home.xml",
+    "Independent": "https://www.independent.co.uk/rss"
 }
 
 HTML_TEMPLATE = """
