@@ -21,6 +21,8 @@ HTML_TEMPLATE = """
 
 <link rel="icon" type="image/png" href="{{ url_for('static', filename='1775855183417.png') }}">
     
+    <link rel="apple-touch-icon" href="{{ url_for('static', filename='1775855183417.png') }}">
+    
     <style>
         body { font-family: sans-serif; padding: 20px; background: #f4f4f9; }
         .story { background: white; padding: 15px; margin-bottom: 10px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
