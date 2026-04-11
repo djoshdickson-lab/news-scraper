@@ -19,7 +19,7 @@ HTML_TEMPLATE = """
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My News Feed</title>
 
-<link rel="icon" type="image/png" href="{{ url_for('static', filename='icon.png') }}">
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='1775855183417.png') }}">
     
     <style>
         body { font-family: sans-serif; padding: 20px; background: #f4f4f9; }
