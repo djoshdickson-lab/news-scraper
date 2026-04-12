@@ -15,13 +15,13 @@ FEEDS = {
 HTML_TEMPLATE = """
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My News Feed</title>
 
-<link rel="icon" type="image/png" href="{{ url_for('static', filename='1775855183417.png') }}">
-    
-    <link rel="apple-touch-icon" href="{{ url_for('static', filename='1775855183417.png') }}">
+    <link rel="icon" type="image/png" href="/1775855183417.png">
+    <link rel="apple-touch-icon" href="/1775855183417.png">
     
     <style>
         body { font-family: sans-serif; padding: 20px; background: #f4f4f9; }
@@ -29,6 +29,7 @@ HTML_TEMPLATE = """
         a { text-decoration: none; color: #007bff; font-weight: bold; }
     </style>
 </head>
+
 <body>
     <h1>Latest Stories</h1>
     {% for source, url in feeds.items() %}
