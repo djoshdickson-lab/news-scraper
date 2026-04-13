@@ -7,6 +7,7 @@ app = Flask(__name__)
 
 FEEDS = {
     "BBC News": "https://feeds.bbci.co.uk/news/uk/rss.xml",
+    "BBC Lincs": "https://feeds.bbci.co.uk/news/england/lincolnshire/rss.xml",
     "The Guardian": "https://www.theguardian.com/uk-news/rss",
     "Sky News": "https://feeds.skynews.com/feeds/rss/home.xml",
     "Independent": "https://www.independent.co.uk/rss"
